@@ -1,0 +1,1 @@
+This is my second bigger webdevelopment project. It was aimed it improving my skills in html java and css. I learned to link actions on the html page with java. I learned to better use CSS grid.
