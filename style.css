@@ -1,0 +1,54 @@
+.calculator {
+    background-color: gray;
+    height: 400px;
+    width: 305px;
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 5px;
+    grid-template-areas:
+        "scr scr scr scr"
+        "one two three add"
+        "four five six subtract"
+        "zeven eight nine divide"
+        "clr zero equal multiply";
+}
+
+.screen {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 27px 10px 27px 10px;
+    grid-area: scr;
+}
+
+.operator {
+    font-size: 20px;
+    color:#c41717;
+}
+
+.number {
+    font-size: 20px;
+}
+
+#zero {
+    grid-area: zero;
+}
+
+#add {
+    grid-area: add;
+}
+
+#subtract {
+    grid-area: subtract;
+}
+
+#clr {
+    grid-area: clr;
+}
+
+#equal {
+    grid-area: equal;
+}
+
